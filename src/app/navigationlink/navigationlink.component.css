@@ -1,0 +1,14 @@
+nav>div>ul>li>a{
+  color: #fff;
+  padding: 0 2em 0 2em;
+  text-align: center;
+  font-size: 1.4em;
+  vertical-align: middle;
+  line-height: 2.3em;
+}
+a.nav-link:hover{
+  border-bottom: 2px solid orange
+}
+.btncolor{
+  color: #fff;
+}

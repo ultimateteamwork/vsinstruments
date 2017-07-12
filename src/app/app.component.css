@@ -1,0 +1,15 @@
+.headerBar{
+  background-color: #0275d8;
+  color: #ffffff;
+
+}
+.headerTxt{
+  text-align: center;
+  font-size: 2em;
+  vertical-align: middle;
+  line-height: 2.3em;
+}
+.bgimg{
+  background-image : url('./assets/img/construction_industry_hero_24.8.jpg');
+}
+
