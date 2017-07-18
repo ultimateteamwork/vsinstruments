@@ -1,0 +1,67 @@
+.orgbdr {
+  border-bottom: 1.2px solid orange;
+}
+.smltxt {
+  font-size: 1.4em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.mrntop {
+  margin-top: 4%;
+}
+.imgMrg1Down {
+  margin-top: 1%;
+  padding: 0rem;
+  background-color: #fff;
+  border: 0px solid #ddd;
+  border-radius: .25rem;
+  transition: all .2s ease-in-out;
+  max-width: 100%;
+  height: auto;
+}
+.containerImg {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0275d8;
+}
+
+.containerImg:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+/*******************************************************************************************/
+@media(max-width:600px) {
+  .productFullView{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+}
+/******************************************************************************************/

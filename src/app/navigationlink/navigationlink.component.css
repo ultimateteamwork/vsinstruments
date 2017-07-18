@@ -2,12 +2,14 @@ nav>div>ul>li>a{
   color: #fff;
   padding: 0 2em 0 2em;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.6em;
   vertical-align: middle;
   line-height: 2.3em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
 }
 a.nav-link:hover{
-  border-bottom: 2px solid orange
+  border-bottom: 1px solid orange
 }
 .btncolor{
   color: #fff;
