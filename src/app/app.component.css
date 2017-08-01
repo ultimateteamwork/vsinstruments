@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lobster:400,700);
 .headerBar {
   background-color: #0275d8;
   color: #ffffff;
@@ -55,10 +57,9 @@ button.navbtnstyl:hover {
     display: block;
     line-height: 1em;
   }
-
   .headerCenter {
     text-align: left;
-    padding-left: 8%;
+   /* padding-left: 8%;*/
   }
 
   .navbtnstyl {
@@ -108,5 +109,9 @@ button.navbtnstyl:hover {
   height: auto;
 }
 
-
+.txtstyle{
+  text-shadow: 0 1px 0 indigo;
+  font: 700 40px 'Bitter';
+  /*-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));*/
+}
 
